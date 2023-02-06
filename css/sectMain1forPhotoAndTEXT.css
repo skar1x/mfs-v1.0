@@ -1,0 +1,457 @@
+.parallax {
+
+    margin-top: 50px;
+    padding: 100px 100px;
+    max-width: 1920px;
+    max-height: 1280px;
+    background-image: url("../assets/bacground__1section.png");
+    background-position: center center; 
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+    position: relative;
+}
+.first_secton{
+    position: absolute;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 60px;
+    color: #E0E0E0;
+}
+@media screen and (min-device-width: 1920px) and (max-device-width: 3000px) { 
+    main{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .container{
+        margin: 0px 138px;
+        max-width: 1560px;
+        max-height: 600px;
+    }
+    .parallax {
+        margin-top: 20px;
+        padding: 100px 100px;
+        height: 600px;
+    }
+    .first__paralax{
+        left: 15px;
+        top: 130px;
+        max-width: 1200px;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 92px;
+        line-height: 60px;
+        color: #79f4fd;
+    }
+    .two__paralax{
+    max-width: 1400px;
+    left: 440px;
+    top: 215px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 10px;
+    display: block;
+    color: #E0E0E0;
+    }
+    .fi__paralax{
+    max-width: 1200px;
+    left: 30px;
+    top: 250px; 
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 10px;
+    
+    color: #E0E0E0;
+    }
+    .four__paralax{
+    max-width: 600px;
+    left: 790px;
+    top: 269px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 59px;
+    color: #E0E0E0;
+    }
+}
+@media screen and (min-device-width: 1440px) and (max-device-width: 1919px) { 
+    main{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .container{
+        margin: 0px 138px;
+        max-width: 1560px;
+        max-height: 600px;
+    }
+    .parallax {
+        margin-top: 20px;
+        padding: 100px 100px;
+        height: 600px;
+    }
+    .first__paralax{
+        left: 15px;
+        top: 120px;
+        max-width: 1200px;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 72px;
+        line-height: 60px;
+        color: #79f4fd;
+    }
+    .two__paralax{
+    max-width: 1400px;
+    left: 140px;
+    top: 203px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 10px;
+    display: block;
+    color: #E0E0E0;
+    }
+    .fi__paralax{
+    max-width: 1200px;
+    left: 10px;
+    top: 240px; 
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 10px;
+    
+    color: #E0E0E0;
+    }
+    .four__paralax{
+    max-width: 600px;
+    left: 670px;
+    top: 255px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 59px;
+    color: #E0E0E0;
+    }
+}
+@media screen and (min-device-width: 1025px) and (max-device-width: 1439px) { 
+    main{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .container{
+        margin: 20px 58px;
+        max-width: 1560px;
+        max-height: 500px;
+    }
+    .parallax {
+        margin-top: 20px;
+        padding: 100px 100px;
+        height: 500px;
+    }
+    .first__paralax{
+        left: 15px;
+        top: 120px;
+        max-width: 1200px;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 62px;
+        line-height: 60px;
+        color: #79f4fd;
+    }
+    .two__paralax{
+    max-width: 1400px;
+    left: 200px;
+    top: 203px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 10px;
+    display: block;
+    color: #E0E0E0;
+    }
+    .fi__paralax{
+    max-width: 1200px;
+    left: 30px;
+    top: 240px; 
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 10px;
+    
+    color: #E0E0E0;
+    }
+    .four__paralax{
+    max-width: 600px;
+    left: 690px;
+    top: 250px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 59px;
+    color: #E0E0E0;
+    }
+}
+@media screen and (max-width:1024px){
+    .container{
+        margin: auto;
+    }
+    .parallax {
+        margin-top: 20px;
+        padding: 100px 100px;
+        height: 380px;
+    }
+    .first__paralax{
+        left: 15px;
+        top: 50px;
+        max-width: 600px;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 60px;
+        color: #79f4fd;
+    }
+    .two__paralax{
+    max-width: 1000px;
+    left: 250px;
+    top: 110px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 10px;
+    display: block;
+    color: #E0E0E0;
+    }
+    .fi__paralax{
+    max-width: 600px;
+    left: 75px;
+    top: 132px; 
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 10px;
+    
+    color: #E0E0E0;
+    }
+    .four__paralax{
+    max-width: 600px;
+    left: 530px;
+    top: 135px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 59px;
+    color: #E0E0E0;
+    }
+}
+@media screen and (max-width:991px){
+    .container{
+        margin: auto;
+    }
+    .parallax {
+        margin-top: 20px;
+        padding: 100px 100px;
+        height: 380px;
+    }
+    .first__paralax{
+        left: 15px;
+        top: 50px;
+        max-width: 600px;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 60px;
+        color: #79f4fd;
+    }
+    .two__paralax{
+    max-width: 1000px;
+    left: 40px;
+    top: 110px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 10px;
+    display: block;
+    color: #E0E0E0;
+    }
+    .fi__paralax{
+    max-width: 600px;
+    left: 75px;
+    top: 132px; 
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 10px;
+    
+    color: #E0E0E0;
+    }
+    .four__paralax{
+    max-width: 600px;
+    left: 480px;
+    top: 135px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 59px;
+    color: #E0E0E0;
+    }
+}
+@media screen and (max-width:768px){
+    .container{
+        margin: auto;
+    }
+    .parallax {
+        margin-top: 20px;
+        padding: 100px 100px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+    }
+    .first__paralax{
+        max-width: 374px;
+        text-align: center ;
+        left: auto;
+        top: 0px;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 60px;
+        color: #79f4fd;
+    }
+    .two__paralax{
+    max-width: 374px;
+    text-align: center ;
+    left: auto;
+    top: 45px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 15px;
+    display: block;
+    color: #E0E0E0;
+    }
+    .fi__paralax{
+    max-width: 374px;
+    text-align: center ;
+    top: 75px; 
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 10px;
+    left: auto;
+    
+    color: #E0E0E0;
+    }
+    .four__paralax{
+    max-width: 374px;
+    text-align: center ;
+    top: 90px;
+    left: auto;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 10px;
+    
+    color: #E0E0E0;
+    }
+}
+
+@media screen and (max-width:426px){
+    .container{
+        margin: auto;
+    }
+    .parallax {
+        margin-top: 20px;
+        padding: 100px 100px;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+    }
+    .first__paralax{
+        max-width: 374px;
+        text-align: center ;
+        left: auto;
+        top: 10px;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 60px;
+        color: #79f4fd;
+    }
+    .two__paralax{
+    max-width: 374px;
+    text-align: center ;
+    left: auto;
+    top: 55px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 10px;
+    display: block;
+    color: #E0E0E0;
+    }
+    .fi__paralax{
+    max-width: 374px;
+    text-align: center ;
+    top: 78px; 
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 10px;
+    left: auto;
+    
+    color: #E0E0E0;
+    }
+    .four__paralax{
+    max-width: 374px;
+    text-align: center ;
+    top: 90px;
+    left: auto;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 10px;
+    
+    color: #E0E0E0;
+    }
+}
+@media screen and (max-width:319px){
+    .first__paralax{
+        font-size: 20px;
+    }
+}
+   
+
